@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JC Schnauzers</title>
+
+    <!--Bootstrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Navbar with Logo-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent fw-bold fs-5" id="navbarWLogo">
+        <div class="container-fluid pt-3 ps-5" id="navbarContainer">
+            <!--Logo and Brand-->
+            <a class="navbar-brand d-none d-sm-block" id="navbarLogo" href="#"><img src="images/navbar_logo.png" alt=""
+                    width="170" height="130" class="pe-2"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Navbar Links-->
+            <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Meet Our Dogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-light fw-bold fs-5 ms-0 ms-sm-3" href="#">Payment Info</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Navbar without Logo-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light fw-bold fs-5" id="navbarWOLogo"
+        style="display: none;">
+        <div class="container-fluid ps-5" id="navbarContainer">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
+            <!--Navbar Links-->
+            <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Meet Our Dogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-primary fw-bold fs-5 ms-0 ms-sm-3" href="#">Payment Info</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Main Picture-->
+    <div class="container-fluid px-0 mx-0">
+        <img src="images/mini_schnauzser_example.png" alt="" class="img-fluid w-100">
+    </div>
+
+    <!--Page Title-->
+    <div class="container pt-5 pb-3 mb-3">
+        <div class="row justify-content-center">
+            <div class="col-7 border-bottom border-3 text-center">
+                <h1 class="fs-1" id="aboutSchnauzers">About JC Miniature Schnauzers</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--Info List-->
+    <div class="container pb-3">
+        <div class="row justify-content-center">
+            <div class="col-7">
+                <ul class="list-group" id="aboutList">
+                    <li class="list-group-item"><img src="images/acron_icon.svg" style="width: 30px; height:30px;"> An
+                        item</li>
+                    <li class="list-group-item"><img src="images/acron_icon.svg" style="width: 30px; height:30px;"> A
+                        second item</li>
+                    <li class="list-group-item"><img src="images/acron_icon.svg" style="width: 30px; height:30px;"> A
+                        third item</li>
+                    <li class="list-group-item"><img src="images/acron_icon.svg" style="width: 30px; height:30px;"> A
+                        fourth item</li>
+                    <li class="list-group-item"><img src="images/acron_icon.svg" style="width: 30px; height:30px;"> And
+                        a
+                        fifth one</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid my-5 py-5 bg-light">
+        <!--Genetic Health Garaunteed-->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-5">
+                    <h1 class="fw-bold my-3 text-center" id="healthGaraunteed">Genetic Health Garaunteed!</h1>
+                </div>
+            </div>
+        </div>
+
+        <!--Info List-->
+        <div class="container py-3">
+            <div class="row justify-content-center">
+                <div class="col-7">
+                    <ul class="list-group" id="infoList">
+                        <li class="list-group-item"><img src="images/acron_icon.svg" style="width: 30px; height:30px;">
+                            An
+                            item</li>
+                        <li class="list-group-item"><img src="images/acron_icon.svg" style="width: 30px; height:30px;">
+                            A
+                            second item</li>
+                        <li class="list-group-item"><img src="images/acron_icon.svg" style="width: 30px; height:30px;">
+                            A
+                            third item</li>
+                        <li class="list-group-item"><img src="images/acron_icon.svg" style="width: 30px; height:30px;">
+                            A
+                            fourth item</li>
+                        <li class="list-group-item"><img src="images/acron_icon.svg" style="width: 30px; height:30px;">
+                            And
+                            a
+                            fifth one</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Photo Cynthia Jose-->
+    <div class="container py-3 my-3">
+        <div class="row">
+            <div class="col-4">
+                <img src="images/photo_of_joey.jpg" alt="" class="img-fluid rounded">
+            </div>
+            <div class="col-8">
+                <ul class="list-group-flush">
+                    <li class="list-group-item"> An item</li>
+                    <li class="list-group-item"> A second item</li>
+                    <li class="list-group-item"> A third item</li>
+                    <li class="list-group-item"> A fourth item</li>
+                    <li class="list-group-item"> And a fifth one</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-light">
+    <div class="col-md-6 d-flex align-items-center">
+        <span class="text-muted ps-5">JC Miniature Schnauzers | (469) 328-3907 | josez.tribox@gmail.com </span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex pe-3 ps-4 pt-2 pt-md-0">
+        <li class="ms-3"><a class="" href="#"><img src="images/facebook_logo.png" style="width:30px; height:30px;"></a>
+        </li>
+        <li class="ms-3"><a class="" href="#"><img src="images/twitter_logo.png" style="width:30px; height:30px;"></a>
+        </li>
+        <li class="ms-3"><a class="" href="#"><img src="images/instagram_logo.png" style="width:30px; height:30px;"></a>
+        </li>
+    </ul>
+</footer>
+
+</html>
