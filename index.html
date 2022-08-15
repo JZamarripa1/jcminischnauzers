@@ -43,7 +43,8 @@
                         <a class="nav-link" href="meet.html">Meet Our Dogs</a>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-outline-light fw-bold fs-5 ms-0 ms-sm-3" href="#">Payment Info</button>
+                        <button class="btn btn-outline-light fw-bold fs-5 ms-0 ms-sm-3" href="#" data-bs-toggle="modal"
+                            data-bs-target="#paymentInfoModal">Payment Info</button>
                     </li>
                 </ul>
             </div>
@@ -70,7 +71,8 @@
                         <a class="nav-link" href="meet.html">Meet Our Dogs</a>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-outline-primary fw-bold fs-5 ms-0 ms-sm-3" href="#">Payment Info</button>
+                        <button class="btn btn-outline-primary fw-bold fs-5 ms-0 ms-sm-3" href="#"
+                            data-bs-toggle="modal" data-bs-target="#paymentInfoModal">Payment Info</button>
                     </li>
                 </ul>
             </div>
@@ -79,29 +81,37 @@
 
     <!--Main Picture-->
     <div class="container-fluid px-0 mx-0">
-        <img src="images/puppy_homescreen1.png" alt="" class="img-fluid">
+        <img src="images/puppy_homescreen_2.png" alt="" class="img-fluid w-100" style="max-height: 700px;">
     </div>
 
-    <!--Company Title-->
-    <div class="container pt-5 pb-3 mb-3">
-        <div class="row justify-content-center">
-            <div class="col-sm-5 col-10 border-bottom border-3 text-center">
-                <h1 class="fs-1">JC Miniature Schnauzers</h1>
-            </div>
-        </div>
-    </div>
 
     <!--General Intro Paragraph-->
-    <div class="container mb-3 py-3">
+    <div class="container py-5">
         <div class="row">
-            <div class="col">
-                <p class="fs-4">JC Minituaure Schanuzer is a small breeding program of AKC minituatire Schauzers. Our
-                    puppies are
-                    raised indoors with excellent 24/7 care by our family and children. We offer full registration with
-                    our purchase. </p>
+            <div class="col-0 col-sm-3 pt-sm-5 pt-lg-0">
+                <img class="img-fluid m-2 d-none d-sm-inline" src="images/logo_black_2.jpg" alt="">
+            </div>
+            <div class="col-12 col-sm-9 px-3 pt-3 pt-sm-5">
+                <div class="row pb-3">
+                    <div class="col border-bottom border-3">
+                        <h1 class="fs-1">JC Miniature Schnauzers</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="fs-4">JC Minituaure Schanuzer is a small breeding program of AKC minituatire
+                            Schauzers. Our
+                            puppies are
+                            raised indoors with excellent 24/7 care by our family and children. We offer full
+                            registration with
+                            our purchase. </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+
 
     <!--Info Cards-->
     <div class="container pb-5">
@@ -109,7 +119,8 @@
             <div class="col py-3">
                 <!--Breeds-->
                 <div class="card" style="width: 18rem; margin-left: auto; margin-right: auto;">
-                    <img src="images/puppy_about_us_shorter.jpg" class="card-img-top" alt="...">
+                    <img src="images/outside_shot_1_square.jpg" class="card-img-top" alt="..."
+                        stlye="max-height: 50px;">
                     <div class="card-body">
                         <h5 class="card-title">Breeds</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -121,7 +132,7 @@
             <div class="col py-3">
                 <!--Meet Our Dogs-->
                 <div class="card" style="width: 18rem; margin-left: auto; margin-right: auto;">
-                    <img src="images/puppy_about_us_shorter.jpg" class="card-img-top" alt="...">
+                    <img src="images/inside_shot_couch_2_square.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Meet Our Dogs</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -133,7 +144,7 @@
             <div class="col py-3">
                 <!--Pricing Info-->
                 <div class="card" style="width: 18rem;  margin-left: auto; margin-right: auto;">
-                    <img src="images/puppy_about_us_shorter.jpg" class="card-img-top" alt="...">
+                    <img src="images/inside_shot_floor_1_square.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Pricing Info</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -144,6 +155,26 @@
             </div>
         </div>
     </div>
+
+    <!--Payment Info Modal-->
+    <div class="modal fade" id="paymentInfoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Payment Info</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Venmo:
+                    Zelle:
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="scripts/main.js"></script>
 </body>
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-light">
